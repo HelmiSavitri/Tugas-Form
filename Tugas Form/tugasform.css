@@ -1,0 +1,46 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;/*agar teks terlihat menarik*/
+    background-color: #53d2e9;/*memberikan warna pada background*/
+    display: flex;/*mengatur tampilan elemen*/
+    align-items: center;/*mengatur posisi elemen*/
+    justify-content: center;/*mengatur posisi kotak form*/
+    height: 100vh;/*mengatur tinggi elemen*/
+    background-image: url(GIF\ Kucing.jpg);/*menambah gif */
+    background-position: top;/*mengubah posisi gif*/
+    background-repeat: no-repeat;
+    background-size: 18%;/*mengatur ukuran gif*/
+}
+
+h2{
+    text-align: center;/*untuk mengatur posisi teks yang akan ditampilkan*/
+    color: #225824;/*menambah warna pada teks*/
+    font-family: 'Courier New', Courier, monospace;/*mengatur jenis font yg ingin digunakan*/
+}
+
+form {
+    background-color: #86e6a6;/*memberikan warna pada kotak form*/
+    padding: 20px;/*mengatur jarak antara content dengan form*/
+    border-radius: 8px;/*mengubah bentuk sudut form*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);/*menambah efek kotak hitam pada box diform*/
+}
+
+label {
+    display: block;/*mengatur tampilan elemen*/
+    margin-bottom: 8px;/*mengatur jarak bagian bawah elemen*/
+}
+
+input {
+    width: 100%;/*mengatur lebar kotak box pada form*/
+    padding: 10px;
+    margin-bottom: 16px;/*mengatur jarak bagian bawah elemen*/
+    box-sizing: border-box;/*untuk memasukkan padding dan border dalam total lebar dan tinggi elemen*/
+}
+
+button {
+    background-color: #4caf50;/*memberi warna pada kotak kirim*/
+    color: #fff;/*memberi warna pada teks*/
+    padding: 10px 15px;/*mengatur jarak antara content dengan form*/
+    border: none;
+    border-radius: 4px;/*untuk memberikan sudut bulat pada border elemen*/
+    cursor: pointer;/*mendefinisikan tipe cursor*/
+}
